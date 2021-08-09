@@ -18,7 +18,11 @@ for i,str in enumerate(Dose):
     mu[i],sigma[i]=norm.fit(file)
 #plt.hist(file,alpha=0.7,bins=30,density=True,label='$\sigma$={:.3f}'.format(sigma[i]))
 
+
+
 plt.title('Stress test with 1.8MeV beam at 3.0Gy',fontsize=13)
+
+#lol
 plt.xlabel('Dose [Gy]',fontsize=13)
 plt.ylabel('Ammount',fontsize=13)
 plt.yticks(fontsize=13)
