@@ -22,7 +22,7 @@ for i,str in enumerate(Dose):
 
 plt.title('Stress test with 1.8MeV beam at 3.0Gy',fontsize=13)
 
-#lol
+#lol 123
 plt.xlabel('Dose [Gy]',fontsize=13)
 plt.ylabel('Ammount',fontsize=13)
 plt.yticks(fontsize=13)
